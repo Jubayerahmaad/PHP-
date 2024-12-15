@@ -15,7 +15,7 @@
 $username = 'Jhon Deo';
 $number = 76;
 $number2 = 1.5;
-$isEnrolled = true / false;
+$isEnrolled = true;
 $students = ['Jubayer', 'Habib'];
 
 $null = null;
