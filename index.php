@@ -12,7 +12,7 @@
 
 //  echo username;
 
-$username = 'Jhon Deo';
+/* $username = 'Jhon Deo';
 $number = 76;
 $number2 = 1.5;
 $isEnrolled = true;
@@ -21,5 +21,9 @@ $students = ['Jubayer', 'Habib'];
 $null = null;
 
 var_dump ($username);
+*/
+
+// PHP 
+// Array
 
 ?>
