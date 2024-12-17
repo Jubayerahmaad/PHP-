@@ -14,12 +14,15 @@ echo $students [1];
 
 // assosiative array 
 
-$students = array ( 
+/* $students = array ( 
     '1st' => array('Jubayer' , 'Habib'),
     '2nd' => array('Abdullah', 'Nasir')
 );
 
 var_dump( $students['1st'])
+*/
+
+
 
 
 
