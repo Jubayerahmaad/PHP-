@@ -32,7 +32,7 @@ function sayGoodMorging($name){
 }
 sayGoodMorging('Abdullah');
 
-// FOOR LOOP
+// FOOR LOOP If Else
 
 
 ?>
