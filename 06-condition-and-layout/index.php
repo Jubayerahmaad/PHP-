@@ -1,12 +1,23 @@
 <?php
 
-$userAge = 18;
+// $userAge = 18;
 
-if ($userAge < 17) {
+// if ($userAge < 17) {
+//     echo "You Are Under 20";
+// } else {
+//     echo "You are over 20.";
+// }
+
+$userAge = 10;
+
+if ($userAge == 20) {
     echo "You Are Under 20";
-} else {
-    echo "You are over 20.";
-}
-
+} elseif($userAge == 30) {
+    echo "You are over 30.";
+} elseif($userAge == 40){
+    echo "You are 40";
+} else{
+    echo "undifined";
+};
 
 ?>
