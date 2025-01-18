@@ -6,8 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="Form-submit.php">
-        <input type="text" placeholder="Name" name='username'> <br>  <br>
+    <form action="Form-submit.php" method="POST">
+        <input type="text" placeholder="Name" name='username' > <br>  <br>
         <input type="Email" placeholder="Email" name='email'> <br>  <br>
         <input type="submit" value="Submit Form">
     </form>
