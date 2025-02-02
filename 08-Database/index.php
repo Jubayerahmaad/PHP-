@@ -15,8 +15,8 @@ if($conn){
 
 $sql = "INSERT INTO users (name, email, password) VALUES ('Habib', 'Habib@gmail.com', 12345)";
 
-$inser = mysqli_query($conn , $sql);
+$insert = mysqli_query($conn , $sql);
 
-if(){
+if($insert){
     echo 'Database Created!'
 }
