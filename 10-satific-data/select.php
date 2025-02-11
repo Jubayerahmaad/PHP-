@@ -6,7 +6,7 @@ $db_user = 'root';
 $db_pass = '';
 $db_name = 'dataofcustomer';
 
-// DB connection
+// DB Connection
 $conn = mysqli_connect($host, $db_user, $db_pass, $db_name);
 
 // Query 

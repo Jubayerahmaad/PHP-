@@ -1,12 +1,23 @@
 <?php
-"<pre>";
 
+$has_error = false;
+$errors = array();
 
 // Request validation
-print_r($_SERVER); 
+$request_method = $_SERVER['REQUEST_METHOD'];
+
+if('POST' != $request_method){
+    $has_error = true;
+    array_push(errors, 'Invalid Method!');
+}
 
 
 // Validate input feild
 
 
-// Insert
+// Insert 
+if($has_error){
+    foreach($errors as $error){
+        echo $error;
+
+    }
